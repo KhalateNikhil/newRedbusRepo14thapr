@@ -41,6 +41,7 @@ public class BaseClass {
 		 driver.manage().deleteAllCookies();
 		 String url=prop.getProperty("URL");
 		 driver.get(url);
+		 System.out.println("LoginPage TC created by NikhilTester");
 		 
 	}
 	
